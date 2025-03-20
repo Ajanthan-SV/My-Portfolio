@@ -226,10 +226,12 @@ h1.title{
   overflow: hidden;
 }
 
-.project-image img{
-  height: 200px;
-  width: max-content;
-  margin-left: 50px;
+.project-image img {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .view-project {
@@ -269,27 +271,30 @@ h1.title{
   position: relative;
   padding: 20px 0;
   margin: 0 -20px;
+  width: auto;
 }
 
 .slider-container {
-  overflow: hidden;
-  position: relative;
+  overflow-x: auto;
+  display: flex;
+  scroll-behavior: smooth;
 }
 
 .slider-track {
   display: flex;
-  transition: transform 0.5s ease;
+  width: max-content;
 }
 
 .project-card {
-  flex: 0 0 350px;
+  flex: 0 0 auto;
+  width: 350px;
+  margin: 0 15px;
   background: white;
   padding: 40px;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(30, 58, 138, 0.1);
   cursor: pointer;
   transition: all 0.3s ease;
-  margin: 0 15px;
   animation: fadeInUp 1s ease;
 }
 

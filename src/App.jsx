@@ -1,25 +1,21 @@
-import React, { useState, useEffect, useRef, Suspense } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import {
   Menu,
   X,
   Palette,
   ListTodo ,
   Send,
-  ChevronLeft,
-  ChevronRight,
   ViewIcon,
   ExternalLink,ShoppingCart,
 } from "lucide-react";
 import "./index.css";
-import { sendEmail } from "./email";
+import { sendEmail } from './email.js';
 import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const sliderRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -77,29 +73,7 @@ function App() {
     },
   ];
 
-  const slideNext = () => {
-    if (currentSlide < projects.length - 1) {
-      setCurrentSlide((prev) => prev + 1);
-      if (sliderRef.current) {
-        const slideWidth = 380;
-        sliderRef.current.style.transform = `translateX(-${
-          (currentSlide + 1) * slideWidth
-        }px)`;
-      }
-    }
-  };
 
-  const slidePrev = () => {
-    if (currentSlide > 0) {
-      setCurrentSlide((prev) => prev - 1);
-      if (sliderRef.current) {
-        const slideWidth = 380;
-        sliderRef.current.style.transform = `translateX(-${
-          (currentSlide - 1) * slideWidth
-        }px)`;
-      }
-    }
-  };
 
   return (
     <div className="App relative min-h-screen">
@@ -197,15 +171,13 @@ function App() {
           </div>
           <div className="projects-slider">
             <div className="slider-container">
-              <div className="slider-track" ref={sliderRef}>
+              <div className="slider-track">
                 {projects.map((project, index) => (
                   <div
                     key={index}
                     className="project-card"
                     onClick={() =>
-                      setSelectedProject(
-                        selectedProject === index ? null : index
-                      )
+                      setSelectedProject(selectedProject === index ? null : index)
                     }
                   >
                     <div className="project-icon">{project.icon}</div>
@@ -214,22 +186,6 @@ function App() {
                   </div>
                 ))}
               </div>
-            </div>
-            <div className="slider-nav">
-              <button
-                className="slider-btn"
-                onClick={slidePrev}
-                disabled={currentSlide === 0}
-              >
-                <ChevronLeft size={24} />
-              </button>
-              <button
-                className="slider-btn"
-                onClick={slideNext}
-                disabled={currentSlide === projects.length - 1}
-              >
-                <ChevronRight size={24} />
-              </button>
             </div>
           </div>
         </div>
