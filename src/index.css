@@ -651,6 +651,22 @@ h1.title{
   .project-card {
     flex: 0 0 300px;
   }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -673,6 +689,15 @@ h1.title{
   .project-card {
     flex: 0 0 260px;
     padding: 30px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+
+  .hero-image img {
+    max-width: 90%;
   }
 }
 
