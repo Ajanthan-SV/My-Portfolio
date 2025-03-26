@@ -620,7 +620,7 @@ h1.title{
     animation: 
       typing 7s steps(19) infinite,
       blink-caret .95s step-end infinite;
-    width: 450px;
+    width: 315px;
   }
 
   .nav-links {
@@ -679,7 +679,7 @@ h1.title{
     animation: 
       typing 7s steps(19) infinite,
       blink-caret .95s step-end infinite;
-    width: 350px;
+    width: 250px;
   }
 
   .section-title h2 {
