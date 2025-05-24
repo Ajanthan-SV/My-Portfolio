@@ -144,7 +144,7 @@ function App() {
                 creating impactful online experiences.
               </p>
               <a
-                href="https://drive.google.com/file/d/1OOXbyAcbMLFeNPRdjHK-i_K0GQgELjvH/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1OOXbyAcbMLFeNPRdjHK-i_K0GQgELjvH/view?usp=sharing"
                 className="btn"
                 style={{ marginRight: "10px" }}
               >
