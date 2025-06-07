@@ -6,7 +6,7 @@ import {
   ListTodo ,
   Send,
   ViewIcon,
-  ExternalLink,ShoppingCart,
+  ExternalLink,
 } from "lucide-react";
 import "./index.css";
 import { sendEmail } from './email.js';
