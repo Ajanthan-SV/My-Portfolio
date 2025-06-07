@@ -256,13 +256,13 @@ function App() {
                 HTML, CSS, Bootstrap, JavaScript, ReactJs
               </p>
             </div>
-            <div className="skill-item bg-white p-6 rounded-lg shadow-md">
+{/*             <div className="skill-item bg-white p-6 rounded-lg shadow-md">
               <div className="skill-icon mb-4">
                 <i className="fas fa-server text-green-500 text-4xl"></i>
               </div>
               <h3 className="text-xl font-semibold">Backend Development</h3>
               <p className="text-gray-600">Django</p>
-            </div>
+            </div> */}
             <div className="skill-item bg-white p-6 rounded-lg shadow-md">
               <div className="skill-icon mb-4">
                 <i className="fas fa-database text-yellow-500 text-4xl"></i>
