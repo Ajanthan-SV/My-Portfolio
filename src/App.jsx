@@ -40,36 +40,48 @@ function App() {
       anchor: "https://play.google.com/store/apps/details?id=edu.rapid.cgpa",
       repo: "",
     },
-    {
-      icon: <ShoppingCart size={40} />,
-      title: "Full-stack Ecommerce platform: Shopkart",
-      description:
-        "Developed and Deployed 'ShopKart' which is full-stack Ecommerce platform.It's one of my personal development project.Please,click this block to see more detail",
-      details:
-        "Developed and Deployed 'ShopKart' which is full-stack Ecommerce platform using Django template with MySQL for secure data management. Implemented user authentication, product listings, and order processing.For optimized UI & performance designed a responsive interface with HTML, CSS, JavaScript, and Bootstrap.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Django",
-        "MySQL",
-      ],
-      image: "./Images/Shopkart SS.png",
-      anchor: "https://shopkart-7d3j.onrender.com/",
-      repo: "https://github.com/Ajanthan-SV/My-Ecommerce-site-ShopKart.git",
-    },
+    // {
+    //   icon: <ShoppingCart size={40} />,
+    //   title: "Full-stack Ecommerce platform: Shopkart",
+    //   description:
+    //     "Developed and Deployed 'ShopKart' which is full-stack Ecommerce platform.It's one of my personal development project.Please,click this block to see more detail",
+    //   details:
+    //     "Developed and Deployed 'ShopKart' which is full-stack Ecommerce platform using Django template with MySQL for secure data management. Implemented user authentication, product listings, and order processing.For optimized UI & performance designed a responsive interface with HTML, CSS, JavaScript, and Bootstrap.",
+    //   technologies: [
+    //     "HTML",
+    //     "CSS",
+    //     "Javascript",
+    //     "Bootstrap",
+    //     "Django",
+    //     "MySQL",
+    //   ],
+    //   image: "./Images/Shopkart SS.png",
+    //   anchor: "https://shopkart-7d3j.onrender.com/",
+    //   repo: "https://github.com/Ajanthan-SV/My-Ecommerce-site-ShopKart.git",
+    // },
+    // {
+    //   icon: <ListTodo size={40} />,
+    //   title: "Todo Web-App",
+    //   description:
+    //     "Developed and Deployed 'Todo WebApp' using ReactJs.It's one of my personal development project.Please,click this block to see more detail",
+    //   details:
+    //     "Developed and Deployed Todo Web-Application using ReactJs in which,I have used the localstorage also known as temporary Storage.By this you can able to create an account and sigin.Provided the functionality of personalize your task.",
+    //   technologies: ["ReactJs", "CSS", "JavaScript"],
+    //   image: "./Images/todo app.png",
+    //   anchor: "https://ajanthan-todo.netlify.app/",
+    //   repo:"https://github.com/Ajanthan-SV/todo.git",
+    // },
     {
       icon: <ListTodo size={40} />,
-      title: "Todo Web-App",
+      title: "Enhanced Expense Tracker",
       description:
-        "Developed and Deployed 'Todo WebApp' using ReactJs.It's one of my personal development project.Please,click this block to see more detail",
+        "Developed and Deployed 'Enhanced Expense Tracker'.It's one of my personal development project.Please,click this block to see more detail",
       details:
-        "Developed and Deployed Todo Web-Application using ReactJs in which,I have used the localstorage also known as temporary Storage.By this you can able to create an account and sigin.Provided the functionality of personalize your task.",
-      technologies: ["ReactJs", "CSS", "JavaScript"],
-      image: "./Images/todo app.png",
-      anchor: "https://ajanthan-todo.netlify.app/",
-      repo:"https://github.com/Ajanthan-SV/todo.git",
+        "A responsive web app built using HTML, CSS, and JavaScript to manage daily expenses efficiently.This app allows users to add, delete expenses and track monthly,yearly summaries with dynamic visualizations like pie charts.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      // image: "./Images/todo app.png",
+      anchor: "https://ajanthan-sv.github.io/Expense-Tracker/exp-tracker.html",
+      repo:"https://github.com/Ajanthan-SV/Expense-Tracker",
     },
   ];
 
