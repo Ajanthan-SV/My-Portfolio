@@ -79,7 +79,7 @@ function App() {
       details:
         "A responsive web app built using HTML, CSS, and JavaScript to manage daily expenses efficiently.This app allows users to add, delete expenses and track monthly,yearly summaries with dynamic visualizations like pie charts.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      // image: "./Images/todo app.png",
+      image: "./Images/Expense Tracker.png",
       anchor: "https://ajanthan-sv.github.io/Expense-Tracker/exp-tracker.html",
       repo:"https://github.com/Ajanthan-SV/Expense-Tracker",
     },
