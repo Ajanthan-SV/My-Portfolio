@@ -155,14 +155,14 @@ function App() {
                 skills and always eager to learn and mastering the art of
                 creating impactful online experiences.
               </p>
-              <a
+{/*               <a
                 href="https://drive.google.com/file/d/1OOXbyAcbMLFeNPRdjHK-i_K0GQgELjvH/view?usp=sharing"
                 className="btn"
                 style={{ marginRight: "10px" }}
               >
                 View Resume
                 <ViewIcon size={20} />
-              </a>
+              </a> */}
               <a href="https://github.com/Ajanthan-SV" className="btn">
                 GitHub Profile
                 <ExternalLink size={20} />
