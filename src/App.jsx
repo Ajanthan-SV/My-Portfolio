@@ -5,7 +5,7 @@ import {
   Palette,
   ListTodo ,
   Send,
-  ViewIcon,
+  // ViewIcon,
   ExternalLink,
 } from "lucide-react";
 import "./index.css";
